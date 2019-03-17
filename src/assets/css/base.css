@@ -1,0 +1,94 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.realname .vux-x-input,.realname .vux-selector{
+    /*width:710px;*/
+    height:100px;
+    background:rgba(255,255,255,1);
+    padding: 5px 7.5px;
+}
+div.vux-selector.weui-cell_select-after {
+    padding: 5px 7.5px;
+}
+.realname .vux-x-input .weui-cell__hd .weui-label,.realname .vux-selector .weui-cell__hd .weui-label{
+    font-size:30px;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+    padding: 0px 18px;
+}
+.realname .vux-x-input .weui-cell__bd #vux-x-input-itksn,.realname .vux-selector .weui-cell__bd .weui-select{
+    font-size:30px;
+    font-weight:bold;
+    color:rgba(153,153,153,1);
+}
+.authentication .weui-btn{
+    background-color: rgba(0,0,0,0);
+    height: 80px;
+    line-height: 80px;
+}
+.authentication .weui-btn:after{
+    border: none;
+}
+.authentication .vux-step{
+    width: 503px;
+    height: 46px;
+    margin: 99px auto;
+}
+.authentication .second .right .vux-x-input{
+    padding: 0px;
+}
+.authentication .weui-btn_primary:not(.weui-btn_disabled):active{
+    background-color: rgba(0,0,0,0);
+}
+.authentication .third .weui-cell:before{
+    border-top: none;
+}
+.authentication .third .vux-x-input .weui-label{
+    font-size:30px;
+    font-weight:500;
+    color:rgba(51,51,51,1);
+    padding-bottom: 30px;
+}
+.authentication .third .vux-x-input .weui-input{
+    padding: 0px;
+    font-size: 28px;
+    padding-bottom: 26px;
+    border-bottom: 4px solid #F5F7F9;
+}
+.authentication .third .vux-x-input{
+    margin-bottom: 60px;
+}
+.authentication .vux-step-item-tail{
+    top:24px;
+    right:10px !important;
+    left:30px;
+}
+.authentication .vux-step-item-head-process .vux-step-item-head-inner ,.authentication .vux-step-item-head-wait .vux-step-item-head-inner {
+    border: 2px solid #ccc;
+    background: #ccc none repeat scroll 0 0;
+    color: #fff;
+    padding: 8px;
+}
+.authentication .vux-step-item-head-finish .vux-step-item-head-inner {
+    border: 2px solid #F8A841;
+    color: #F8A841;
+    padding: 8px;
+}
+.authentication .vux-step-item:nth-child(1) .weui-icon-success-no-circle:before {
+    content: "1";
+    color: #F8A841;
+}
+.authentication .vux-step-item:nth-child(2) .weui-icon-success-no-circle:before {
+    content: "2";
+    color: #F8A841;
+}
+.authentication .vux-step-item:nth-child(3) .weui-icon-success-no-circle:before {
+    content: "3";
+    color: #F8A841;
+}
+.authentication .vux-step-item-tail-finish {
+    background: #F8A841 none repeat scroll 0 0;
+}
